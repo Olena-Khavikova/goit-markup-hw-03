@@ -112,6 +112,10 @@ footer {
   letter-spacing: 0.03em;
 }
 
+.is-hidden {
+  display: none;
+}
+
 /* Features */
 .features .title {
   color: var(--title-text-color);
