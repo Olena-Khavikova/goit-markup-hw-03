@@ -21,8 +21,6 @@
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-
-  outline: solid 1px magenta;
 }
 
 .secondary-container {
@@ -33,8 +31,6 @@
   margin-right: auto;
 
   background-color: var(--secondary-bg-color);
-
-  outline: solid 1px magenta;
 }
 
 body {
@@ -82,7 +78,6 @@ body {
   margin-left: 93px;
 }
 .site-nav .item {
-  outline: 1px solid magenta;
 }
 
 .site-nav .item:not(:last-child) {
@@ -218,8 +213,7 @@ body {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
   margin-bottom: 0px;
-  outline: 1px solid magenta;
-}
+  }
 .features-item:nth-child(4n) {
   margin-right: 0px;
 }
@@ -343,7 +337,6 @@ body {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-  outline: 1px solid magenta;
 }
 .our-works-item:nth-child(3n) {
   margin-right: 0px;
