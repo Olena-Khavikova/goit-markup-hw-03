@@ -130,37 +130,41 @@ body {
 }
 
 .button {
-  /* display: inline-block; */
   border-radius: 4px;
   padding: 10px 32px;
-  min-width: 200px;
-  min-height: 50px;
+  min-width: 73px;
+  min-height: 38px;
   text-decoration: none;
   text-align: center;
   border-color: transparent;
 
-  color: var(--primary-text-color);
-  background-color: var(--primary-white-color);
+  color: var(--title-text-color);
+  background-color: var(--secondary-bg-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88px;
 }
 
-.button.primary {
+.button:hover {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
 
-.button.secondary {
-  color: var(--title-text-color);
-  background-color: var(--secondary-bg-color);
-}
 /* Hero */
 .hero {
   text-align: center;
 
   background-color: var(--dark-bg-color);
 }
+.hero-content {
+  display: inline-block;
+  width: 696px;
+  border: 0px;
+  margin: 0px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .hero-title {
   margin-top: 0px;
   margin-bottom: 30px;
@@ -303,7 +307,12 @@ body {
 }
 
 .our-works-filter {
+  display: flex;
+  justify-content: center;
   margin-bottom: 50px;
+}
+.our-works-filter .button + .button {
+  margin-left: 8px;
 }
 
 .work-title {
